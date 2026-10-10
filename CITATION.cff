@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "CanPert: cell line context reshapes genetic perturbation responses"
+abstract: "Set-based transfer of Perturb-seq effects (CASTER) across leukemia, hepatoblastoma and non-transformed cells, with calibrated metrics, noise ceilings and DepMap validation."
+authors:
+  - name: "Md Kawsar"
+repository-code: "https://github.com/SaiKawserKazi/canpert"
+version: "1.0.0"
+date-released: "2026-10-10"
+keywords: [Perturb-seq, CRISPRi, cell line context, set transformer, transfer learning, calibrated metrics, DepMap]

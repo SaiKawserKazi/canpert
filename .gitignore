@@ -1,0 +1,11 @@
+data/
+.venv/
+__pycache__/
+*.pyc
+artifacts/
+artifacts_dry/
+reports_dry/
+reports_prelim/
+reports/_eq/
+reports/~$*
+reports/calibration/
