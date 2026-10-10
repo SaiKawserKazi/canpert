@@ -1,0 +1,190 @@
+{
+ "depmap_controls": {
+  "cross": [
+   {
+    "response_line": "k562",
+    "chronos_line": "k562",
+    "rho": -0.45035959098197936,
+    "n": 1325
+   },
+   {
+    "response_line": "k562",
+    "chronos_line": "hepg2",
+    "rho": -0.4111771685942386,
+    "n": 1325
+   },
+   {
+    "response_line": "k562",
+    "chronos_line": "jurkat",
+    "rho": -0.3824229613229093,
+    "n": 1325
+   },
+   {
+    "response_line": "hepg2",
+    "chronos_line": "k562",
+    "rho": -0.49268420311809286,
+    "n": 1275
+   },
+   {
+    "response_line": "hepg2",
+    "chronos_line": "hepg2",
+    "rho": -0.5371077050785887,
+    "n": 1275
+   },
+   {
+    "response_line": "hepg2",
+    "chronos_line": "jurkat",
+    "rho": -0.4795526455094076,
+    "n": 1275
+   },
+   {
+    "response_line": "jurkat",
+    "chronos_line": "k562",
+    "rho": -0.35856481231018567,
+    "n": 1465
+   },
+   {
+    "response_line": "jurkat",
+    "chronos_line": "hepg2",
+    "rho": -0.39922770932678586,
+    "n": 1465
+   },
+   {
+    "response_line": "jurkat",
+    "chronos_line": "jurkat",
+    "rho": -0.388214255417448,
+    "n": 1465
+   }
+  ],
+  "generality": [
+   {
+    "line": "k562",
+    "pearson_other_lines_mean_vs_own": 0.8186844798906687,
+    "n": 1325
+   },
+   {
+    "line": "hepg2",
+    "pearson_other_lines_mean_vs_own": 0.8537388509258739,
+    "n": 1275
+   },
+   {
+    "line": "jurkat",
+    "pearson_other_lines_mean_vs_own": 0.8307582290030543,
+    "n": 1465
+   }
+  ]
+ },
+ "p53": {
+  "per_line": {
+   "k562": {
+    "tp53": "TP53 null (frameshift)",
+    "frac_induced": 0.0,
+    "median_shift": -0.0028211360331624,
+    "shift_q90": 0.06926359385251993,
+    "n": 1383
+   },
+   "hepg2": {
+    "tp53": "TP53 wild type",
+    "frac_induced": 0.2835820895522388,
+    "median_shift": 0.04619681835174555,
+    "shift_q90": 0.5949865937232972,
+    "n": 1340
+   },
+   "jurkat": {
+    "tp53": "TP53 mutant",
+    "frac_induced": 0.0013012361743656475,
+    "median_shift": 0.0040366696193814,
+    "shift_q90": 0.08910053968429563,
+    "n": 1537
+   },
+   "rpe1": {
+    "tp53": "TP53 wild type",
+    "frac_induced": 0.47098065376917947,
+    "median_shift": 0.152524784207344,
+    "shift_q90": 0.6605249166488648,
+    "n": 1499
+   }
+  },
+  "pair_spearman_p53_shift": {
+   "k562-hepg2": 0.09618800075214633,
+   "k562-jurkat": 0.06164599839215272,
+   "k562-rpe1": 0.0717457590818834,
+   "hepg2-jurkat": 0.2087970017664745,
+   "hepg2-rpe1": 0.6250548991562201,
+   "jurkat-rpe1": 0.09084737947974965
+  },
+  "hepg2_rpe1_by_p53": {
+   "both_induced_median_r": 0.5688287249999999,
+   "n_both": 200,
+   "other_median_r": 0.450669915,
+   "n_other": 200,
+   "mannwhitney_p": 1.93966523405295e-22
+  },
+  "similarity_p53_neither": {
+   "hepg2-jurkat": {
+    "median_r": 0.31054804999999996,
+    "n": 138
+   },
+   "hepg2-rpe1": {
+    "median_r": 0.4194593,
+    "n": 79
+   },
+   "jurkat-rpe1": {
+    "median_r": 0.3358191,
+    "n": 99
+   },
+   "k562-hepg2": {
+    "median_r": 0.35881105,
+    "n": 113
+   },
+   "k562-jurkat": {
+    "median_r": 0.3257415,
+    "n": 237
+   },
+   "k562-rpe1": {
+    "median_r": 0.3516733,
+    "n": 53
+   }
+  }
+ },
+ "ribosome": {
+  "per_fold": {
+   "hepg2_s0": {
+    "coef_ribosome": 0.14919439126554426,
+    "p_ribosome": 1.8583640940015995e-19,
+    "coef_log_nde": 0.033450544296985976,
+    "n_ribosome": 72,
+    "n": 894,
+    "rho_siblings_gain_ribosome": 0.19688947106619498,
+    "p_siblings": 0.09737939242360791
+   },
+   "jurkat_s0": {
+    "coef_ribosome": 0.1298170648488916,
+    "p_ribosome": 3.4092407050896744e-33,
+    "coef_log_nde": 0.015046601059262244,
+    "n_ribosome": 86,
+    "n": 1027,
+    "rho_siblings_gain_ribosome": 0.3830268727002225,
+    "p_siblings": 0.0002727244959027649
+   },
+   "k562_s0": {
+    "coef_ribosome": 0.1250112941782144,
+    "p_ribosome": 1.8396304575524692e-42,
+    "coef_log_nde": 0.012811588841836818,
+    "n_ribosome": 80,
+    "n": 917,
+    "rho_siblings_gain_ribosome": 0.03299990833598434,
+    "p_siblings": 0.7713619122099266
+   },
+   "rpe1_s0": {
+    "coef_ribosome": 0.07723732233645392,
+    "p_ribosome": 0.00025412359377078133,
+    "coef_log_nde": 0.053849181185073994,
+    "n_ribosome": 64,
+    "n": 1003,
+    "rho_siblings_gain_ribosome": 0.19971487343231034,
+    "p_siblings": 0.11360054280124907
+   }
+  }
+ }
+}
